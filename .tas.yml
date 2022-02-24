@@ -3,7 +3,6 @@ framework: mocha
 preRun:
      command:
         - npm install
-        - nom run prepare
 preMerge:
   pattern:
     - "./test/index.js"
